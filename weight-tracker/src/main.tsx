@@ -11,15 +11,17 @@ import ProfileBoard from "./pages/ProfileBoard";
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-      <NavBar></NavBar>
       <BrowserRouter>
-          <Routes>
-              <Route path="/" Component={DashBoard}></Route>
-              <Route path="/goals" Component={GoalBoard}></Route>
-              <Route path="/history" Component={HistoryBoard}></Route>
-              <Route path="/profile" Component={ProfileBoard}></Route>
-              <Route Component={NotFound}></Route>
-          </Routes>
+        <NavBar></NavBar>
+          <main id="main-app">
+              <Routes>
+                  <Route path="/" Component={DashBoard}></Route>
+                  <Route path="/goals" Component={GoalBoard}></Route>
+                  <Route path="/history" Component={HistoryBoard}></Route>
+                  <Route path="/profile" Component={ProfileBoard}></Route>
+                  <Route Component={NotFound}></Route>
+              </Routes>
+          </main>
       </BrowserRouter>
   </React.StrictMode>,
 )
