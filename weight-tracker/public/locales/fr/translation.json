@@ -1,0 +1,18 @@
+{
+  "Dashboard": {
+    "nav": "Acceuil",
+    "title": "Mon accueil"
+  },
+  "Goals": {
+    "nav": "Objectifs",
+    "title": "Mes objectifs"
+  },
+  "History": {
+    "nav": "Historique",
+    "title": "Mon historique de pesées"
+  },
+  "Profile": {
+    "nav": "Profil",
+    "title": "Mon profil"
+  }
+}

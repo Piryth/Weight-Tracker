@@ -1,0 +1,18 @@
+{
+  "Dashboard": {
+    "nav": "Dashboard",
+    "title": "My dashboard"
+  },
+  "Goals": {
+    "nav": "Goals",
+    "title": "My goals"
+  },
+  "History": {
+    "nav": "History",
+    "title": "My history"
+  },
+  "Profile": {
+    "nav": "Profile",
+    "title": "My profile"
+  }
+}
